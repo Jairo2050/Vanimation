@@ -1,0 +1,438 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    margin: 0 0 70px 0;
+    padding: 0!important;
+    height: 100%;
+    display: inline-block;
+        width: 100%;
+    width: -moz-available;        
+    width: -webkit-fill-available;
+    width: fill-available;
+
+}
+.Wallpaper {
+    padding: 0 0 30% 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 5px;
+}
+.ConjuntoHeadCont {
+        width: 100%;
+    width: -moz-available;        
+    width: -webkit-fill-available;
+    width: fill-available;
+    position: relative;
+    z-index: 1;
+}
+.SingleHead {
+    float: left;
+    width: 120px;
+    margin: -85px 25px 0 15px;
+    overflow: hidden;
+    background: #06060882;
+    background-color: #08090c;
+    background-image: url(../img/lazyload.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40px;
+    box-shadow: 0 5px 30px 3px #00000069;
+    height: 175px;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+
+
+.SingleContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+    margin: -45px 0 0 0;
+}
+.SingleHead img {
+      width: 100%;}
+.SingleContent h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px #00000096;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: -10px;
+    padding: 0 10px 0 0;
+    text-transform: capitalize;
+}
+@media screen and (max-width:600px) 
+.SingleContent h1 {
+    font-size: 27px;
+    top: 0;
+}
+.Wallpaper {
+    padding: 0 0 45% 0;
+}
+.SingleHead {
+    float: left;
+    width: 150px;
+    margin: -55px 25px 0 15px;
+    height: 225px;
+}
+@media screen and (max-width:500px) 
+
+   .perfilWallpaper a {
+    bottom: 0;
+    position: absolute;
+    right: 70px;
+}
+@media screen and (max-width:480px) 
+
+    .critWallp .nota {
+    margin: 0 0 0;
+    top: 15px;
+    left: 0;
+    right: initial;
+    border-radius: 0 6px 6px 0;
+}
+
+
+
+    .SingleHead {
+        position: relative;
+        top: 5px;
+        border-radius: 7px;
+}   
+@media screen and (max-width:380px) 
+.SingleContent h1 {
+        font-size: 20px;
+        top: 5px;
+    }
+    
+    
+    
+    .Wallpaper {
+        padding: 0 0 55% 0;
+}
+
+
+           
+      button {
+  
+  border: 0;
+  background-image: linear-gradient (
+  150deg,
+  #9500ff,
+  #09f,
+  #00DDFF
+  );
+  border-radius: 10px;
+  color: #fff;
+  display: fle; 
+  font-size: 18px; 
+  padding: 4px;
+  cursor:pointer; 
+  transition: .3s;
+  
+  
+  }
+  
+  button span {
+  
+  background-color: transparent;
+  padding: 16px 24px; 
+  border-radius: 6px;
+  transition: .3s;
+  
+  }
+  
+  
+  button:hover span {
+  
+  background: none; 
+  }
+  
+  
+  
+  button:active {
+  	 background-color: #999;
+
+  transform: scale(0.7);
+  }
+
+       
+
+      
+      
+      b{
+      	
+      color: whithe;	
+      	
+      	}
+      
+      
+      
+      
+      
+
+   
+
+/* Estilos para la entrada de la serie/película */
+.entry {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.entry-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.entry-info {
+  flex: 1;
+}
+
+.entry-title {
+  margin-bottom: 10px;
+}
+
+.entry-description {
+  margin-bottom: 20px;
+}
+
+.entry-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+}
+
+.entry-details li {
+  margin-bottom: 10px;
+}
+
+.entry-
+
+.entry-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
+
+
+
+
+   .container{
+      background-color:black ;   
+         
+   }
+   
+    .container {
+  text-align: center;
+}
+
+.toggle-btn {
+  background-color: green;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius:4px;
+}
+
+.content {
+  display: none;
+  margin-top: 20px;
+}
+
+.content.show {
+  display: block;
+}  
+
+
+
+#series {
+  background-color: transparent;
+  color: #fff;
+  padding: 30px 0;
+}
+
+#series h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serie {
+  width: 300px;
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(169, 169, 169, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.serie:hover {
+  transform: scale(1.05);
+}
+
+.serie img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  scroll-behavior: auto;
+}
+
+.serie-info {
+  padding: 20px;
+}
+
+.serie-info h3 {
+  margin-top: 0;
+}
+
+.serie-info p {
+  margin-bottom: 20px;
+}
+
+
+ 
+
+
+
+a {
+  display: inline-block;
+  scroll-behavior: auto;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  scroll-behavior: auto;
+}
+  
+  h6{
+  color:silver;
+        
+  }
+  p{
+     color: #666;   
+  }
+  
+   .season-selector {
+  margin-bottom: 20px;
+}
+
+.season {
+  display: none;
+}
+
+.show {
+  display: block;
+}   
+
+.season-selector {
+  margin-bottom: 20px;
+}
+
+.season {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#season-select {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#movies-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.movie {
+  display: inline-block;
+  margin: 10px;
+  opacity: 0;
+  animation: moveMovies 20s infinite;
+}
+
+.movie img {
+  width: 200px;
+  height: 300px;
+}
+
+.movie-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@keyframes moveMovies {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+} 
+      
